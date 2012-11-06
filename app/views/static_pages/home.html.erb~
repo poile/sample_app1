@@ -1,0 +1,13 @@
+<% provide(:title, 'Home') %>
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+	<title>Ruby on Rails Tutorial Sample App | <%= yield(:title) %></title>
+
+</head>
+<body>
+	<h1>Sample App</h1>
+	<p>Find me in app/views/static_pages/home.html.erb</p>
+</body>
+</html>
